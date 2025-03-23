@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
     public void calculate(View view) {
         if(ntd.getText().toString().equals("")){
             new AlertDialog.Builder(this)
-                    .setTitle("Problem")
-                    .setMessage("Please enter your NTD amount.")
+                    .setTitle(R.string.problem)
+                    .setMessage(R.string.please_enter_your_ntd_amount)
                     .setPositiveButton("OK", null)
                     .show();
         }else{
@@ -55,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
             us.setText(String.format("%.3f",us_result));
 
             new AlertDialog.Builder(this)
-                    .setTitle("Result")
-                    .setMessage("USD is "+String.format("%.3f",us_result))
+                    .setTitle(R.string.result)
+                    .setMessage(getString(R.string.usd_is)+String.format("%.3f",us_result))
                     .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {

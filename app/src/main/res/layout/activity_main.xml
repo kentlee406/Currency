@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="48dp"
-        android:text="NTD"
+        android:text="@string/ntd"
         android:textSize="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="4dp"
-        android:text="None"
+        android:text="@string/none"
         android:textSize="30dp"
         app:layout_constraintStart_toEndOf="@+id/textView12"
         app:layout_constraintTop_toBottomOf="@+id/jp" />
@@ -36,7 +36,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="JP"
+        android:text="@string/jp"
         android:textSize="30dp"
         app:layout_constraintEnd_toStartOf="@+id/jp"
         app:layout_constraintHorizontal_bias="1.0"
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
         android:layout_marginTop="16dp"
-        android:text="None"
+        android:text="@string/none"
         android:textSize="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
@@ -60,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:layout_marginTop="4dp"
-        android:text="US"
+        android:text="@string/us"
         android:textSize="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -84,7 +84,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="28dp"
         android:onClick="calculate"
-        android:text="Go"
+        android:text="@string/go"
         android:textSize="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ntd" />

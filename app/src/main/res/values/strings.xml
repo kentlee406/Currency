@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Currency</string>
+    <string name="ntd">NTD</string>
+    <string name="jp">JP</string>
+    <string name="go">Go</string>
+    <string name="us">US</string>
+    <string name="none">None</string>
+    <string name="problem">Problem</string>
+    <string name="result">Result</string>
+    <string name="please_enter_your_ntd_amount">Please enter your NTD amount.</string>
+    <string name="usd_is">"USD is "</string>
 </resources>
